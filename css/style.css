@@ -311,6 +311,7 @@ button.btn.btn-secondary:hover {
     background-color: #c91f28;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 .product-grid2 .social li a:after,
 .product-grid2 .social li a:before {
     content: attr(data-tip);
