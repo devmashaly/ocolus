@@ -1,0 +1,41 @@
+@media (max-width: 575px){
+
+
+
+td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding: 10px 0px;
+    padding-left: 0px;
+    padding-left: 0;
+    text-align: center;
+}
+
+}
+
+@media (max-width: 575px){
+    table, thead, tbody, th, td, tr {
+        display: block !important;
+    }
+    .shiping-cart__product-title h4{
+        text-align: center;
+            
+        }
+        .shiping-cart__cart-table .custome{
+            width: inherit;
+        }
+
+        .shiping-cart__progress-holder button {
+            /* width: 550px; */
+            font-size: 14px;
+            height: 40px;
+            line-height: 11px;
+        }
+        
+        button.shipping-cart__btn.btn, button.checkout__btn.btn, .deafult-button, .lightblue-btn{
+            width: 100%;
+        }
+}
+
+
