@@ -24,6 +24,10 @@
 
 /* start navbar slider */
 
+.bg-light {
+    background-color: #ffffff!important;
+}
+
 span.carousel-control-next-icon:before,
 span.carousel-control-prev-icon:before {
     position: absolute;
@@ -452,7 +456,7 @@ button.btn.btn-secondary:hover {
 .slick-content h2 {
     font-size: 40px;
     font-weight: 700;
-    color: rgb(41, 51, 65);
+    color: #293341;
 }
 
 .slick-content p {
@@ -670,3 +674,4 @@ footer#dk-footer hr {
 }
 
 /*  end footer */
+

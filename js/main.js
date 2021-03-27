@@ -1,6 +1,6 @@
 // optional
 		$('#blogCarousel').carousel({
-				interval: 500
+				interval: 1500
         });
 
 
@@ -23,3 +23,43 @@
         return false;
       });
   });
+
+  $('.first').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:2,
+            nav:false,
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4,
+            
+        }
+    }
+})
+
+$('.Column-list').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  dots:false,
+  responsive:{
+      0:{
+          items:2,
+          nav:false,
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:5,
+          
+      }
+  }
+})

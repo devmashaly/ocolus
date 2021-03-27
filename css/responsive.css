@@ -1,5 +1,85 @@
-@media screen and (min-width: 480px) {
-    body {
-      background-color: lightgreen;
+@media screen and (max-width: 414px) {
+
+    span.carousel-control-next-icon:before, span.carousel-control-prev-icon:before{
+        width: 22px;
+        height: 6px; 
+        font-size: 24px;
+        margin: 2px;
     }
+
+    span.carousel-control-prev-icon:before{
+        left: 0px;
+    }
+    span.carousel-control-prev-icon {
+        
+        width: 30px;
+        height: 30px;
+    }
+
+    span.carousel-control-next-icon{
+        width: 30px;
+    height: 30px;
+    }
+
+    span.carousel-control-next-icon:before {
+        right: 0px;
+    }
+
+    .fitst-image {
+        margin: 21px 0;
+    }
+
+    .feature-content h2 {
+        font-size: 25px;
+    }
+
+    .feature-content p {
+        font-size: 14px;
+    margin: 0px;
+    line-height: 26px;
+    }
+
+    .product-shopping {
+        margin: 0;
+    }
+    
+    .product-content h5 {
+        font-size: 12px;
+    }
+
+    .product-content p {
+        font-size: 14px;
+    }
+
+    .item {
+        margin-top: 25px;
+    }
+
+    .slick-content {
+        padding: 17px 0;
+    }
+
+    .slick-content h2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    button.btn.btn-slick {
+        font-size: 14px;
+        padding: 12px 29px;
+    }
+
+    .slick-content p {
+        font-size: 15px;
+    }
+
+    .Column-list img {
+        padding: 17px 16px;
+        margin: 0;
+    }
+
+   
+
+    }
+
   }
