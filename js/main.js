@@ -35,7 +35,8 @@
             nav:false,
         },
         600:{
-            items:3
+            items:3,
+            nav:false,
         },
         1000:{
             items:4,
@@ -55,11 +56,14 @@ $('.Column-list').owlCarousel({
           nav:false,
       },
       600:{
-          items:3
+          items:3,
       },
       1000:{
-          items:5,
-          
+          items:5,     
       }
   }
 })
+
+  
+
+           
