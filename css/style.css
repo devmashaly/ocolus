@@ -27,7 +27,7 @@
 /* start navbar slider */
 
 .bg-light {
-    background-color: #ffffff !important;
+    background-color: #ffffff!important;
 }
 
 span.carousel-control-next-icon:before,
@@ -458,7 +458,7 @@ button.btn.btn-secondary:hover {
 .slick-content h2 {
     font-size: 40px;
     font-weight: 700;
-    color: rgb(41, 51, 65);
+    color: #293341;
 }
 
 .slick-content p {
@@ -512,7 +512,7 @@ button.btn.btn-slick:hover {
 }
 
 .Column-list img {
-    margin: 55px;
+    padding: 37px;
 }
 
 /*  end column list */
