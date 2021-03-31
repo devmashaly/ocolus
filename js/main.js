@@ -64,7 +64,6 @@ $('.Column-list').owlCarousel({
   }
 })
 
-<<<<<<< HEAD
 var slider = document.getElementById("myRange");
 var output = document.getElementById("demo");
 output.innerHTML = slider.value; // Display the default slider value
@@ -78,8 +77,6 @@ slider.oninput = function() {
 
 
 
-=======
->>>>>>> 574df317d474eebade06a938d6ba10f065a885eb
   
 
            
