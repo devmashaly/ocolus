@@ -26,8 +26,29 @@
 
 /* start navbar slider */
 
-.bg-light {
-    background-color: #ffffff!important;
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background: white !important;
+}
+
+.info-slider {
+    padding: 9px 22px;
+    color: #7b7b7b;
+    font-family: Poppins;
+    font-size: 13px;
+}
+
+.info-slider span {
+    padding: 0px 41px;
+}
+
+.icon-social-slider {
+    float: right;
+    padding: 9px 22px;
+    color: #7b7b7b;
+    font-size: 13px;
+}
+.icon-social-slider i {
+    padding: 0px 6px;
 }
 
 span.carousel-control-next-icon:before,
@@ -39,6 +60,33 @@ span.carousel-control-prev-icon:before {
     font: normal normal normal 14px/1 FontAwesome;
     font-size: 40px;
     margin: 13px;
+}
+
+i.fa.fa-user-o:before {
+    content: "\f2c0";
+    font-size: 20px;
+    color: rgb(25 24 24 / 50%);
+}
+
+i.fa.fa-search {
+    font-size: 20px;
+    color: rgb(25 24 24 / 50%);
+}
+i.fa.fa-shopping-basket:before {
+    content: "\f291";
+    color: rgb(25 24 24 / 50%);
+}
+
+.nav-icon-holder i {
+    margin: 0px 3px 0px 14px;
+}
+.nav-icon-holder {
+    padding: 0px 15px;
+    float: right;
+}
+
+hr.navbar-icons {
+    margin: 0;
 }
 
 span.carousel-control-next-icon:before {
