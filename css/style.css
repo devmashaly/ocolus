@@ -30,6 +30,10 @@
     background-color: #ffffff!important;
 }
 
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background: #ffffff !important;
+}
+
 span.carousel-control-next-icon:before,
 span.carousel-control-prev-icon:before {
     position: absolute;
@@ -718,6 +722,15 @@ footer#dk-footer hr {
     font-size: 16px;
     color: rgb(41, 51, 65);
     margin-bottom: 19px;
+    letter-spacing: 3px;
+}
+
+.header-shop h2 {
+    color: #293341;
+    font-size: 34px;
+    font-family: Poppins;
+    font-weight: 500;
+    margin: 24px 0 0 0;
 }
 
 .product-paragraph {
@@ -1127,20 +1140,49 @@ button.btn-tags:hover {
     clear: both;
 }
 
+.show-grid-list p {
+    margin-top: 12px;
+}
+
+
+.show-grid-list {
+    float: left;
+    padding: 6px 20px;
+    border: 1px solid #eee;
+    color: #7b7b7b;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
 button#list {
     background: white;
-    color: #293341;
-    padding: 14px 20px;
+    color: #aaabaa;
+    padding: 12px 20px;
     border: 1px solid #eee;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+select.ctrl-row {
+    padding: 18px 20px;
+    border: 1px solid #eee;
+    color: #7b7b7b;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.btn-group {
+    float: right;
 }
 
 button#grid {
     background: white;
-    color: #293341;
-    padding: 14px 20px;
+    color: #aaabaa;
+    padding: 6px 20px;
     border: 1px solid #eee;
-    font-size: 20px;
+    font-size: 25px;
+    border-radius: 1px;
 }
 button#grid:hover {
     color: rgb(238, 26, 26);
@@ -1204,7 +1246,7 @@ p.lead {
 
 .label {
     position: absolute;
-    margin: 33px;
+    margin: 23px;
     background: #27ae60;
     border: 1px #27ae60;
     width: 41px;
@@ -1217,6 +1259,10 @@ p.lead {
     line-height: 30px;
     color: #7b7b7b;
     font-weight: 300;
+}
+
+.img-label img {
+    height: 293px;
 }
 
 button.btn.btn-dark {
@@ -1264,6 +1310,16 @@ button.btn.btn-primary {
 
 .list-group-item .add-cart {
     display: block;
+}
+
+img.group.list-group-image.img-fluid:hover {
+    -webkit-transform: none;
+    transform: none;
+}
+
+button.btn.btn-dark:hover {
+    background-color: #c91f28;
+    border: 1px solid #c91f28;
 }
 
 /*  end List - Grid View */

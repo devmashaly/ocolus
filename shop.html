@@ -248,7 +248,7 @@
             <div class="product-widget">
                 <h4>PRODUCTS</h4>
                 <div class="first-widget">
-                    <div class="row">
+                    <div class="row">                      
                         <div class="col-md-5">
                             <img class="img-widget" src="img/shop-page/product-widget/1.jpg" />
                         </div>
@@ -343,7 +343,11 @@
         <div class="col-md-9">
             <div class="container">
                 <div class="row">
+
                     <div class="col-lg-12 my-3">
+                        <div class="header-shop">
+                            <h2>Shop</h2>
+                        </div>
                         <div class="pull-right">
                             <div class="btn-group">
                                 <button class="btn btn-info" id="list">
@@ -351,64 +355,578 @@
                                 </button>
                                 <button class="btn btn-danger" id="grid">
                                     <i class="fa fa-th-large" aria-hidden="true"></i>
-                                </button>
+                                </button>                               
                             </div>
+                            <div class="show-grid-list">
+                                <p>Showing 1–12 of 257 results</p>
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="sort by latest">
+                                      <form>
+                                      <div class="controls controls-row">
+                                          <select class="ctrl-row">
+                                            <option>sort by latest</option>
+                                            <option>Sort by popularity</option>
+                                            <option>Sort by average rating</option>
+                                            <option>Sort by price: low to high</option>
+                                            <option>Sort by price: high to low</option>
+                                        </select>
+                                      </div>
+                                      </form>
+                                  </div>
+                                  </div>
                         </div>
                     </div>
                 </div>
-                <div id="products" class="row view-group">
-                    <div class="item col-xs-4 col-lg-4">
-                        <div class="thumbnail card">
-                            <div class="img-event">
-                                <div class="label">
-                                    <p>New</p>
-                                </div>
-                                <div class="img-label">
-                                    <img class="group list-group-image img-fluid" src="img/shop-page/List-Grid View/1.jpg" alt="" />
-                                </div>
-                            </div>
-                            <div class="caption card-body">
-                                <p class="group inner list-group-item-text">
-                                    Crumpler The Drewbob 200
-                                </p>
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-12">
-                                        <p class="lead">
-                                            $425.00
-                                        </p>
-                                    </div>
-                                    <div class="col-xs-12 col-md-12">
-                                        <div class="rate-grid"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div class="add-cart">
-                                <p>Simple, practical, timeless design made case suitable for digital cameras with removable lenses up to 30mm and accessories. The top...</p>
-                                <div class="cart-btn">
-                                    <button type="button" class="btn btn-dark">Add to cart</button>
-                                    <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
-                                        <i class="fa fa-search" aria-hidden="true"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
-                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
-                                        <i class="fa fa-compress" aria-hidden="true"></i>
-                                    </button>
+                    <div id="products" class="row view-group">
+                        <div class="item col-xs-4 col-lg-4">
+                            <div class="thumbnail card">
+                                <div class="img-event">
+                                    <div class="label">
+                                        <p>New</p>
+                                    </div>
+                                    <div class="img-label">
+                                        <img class="group list-group-image img-fluid" src="img/shop-page/List-Grid View/1.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="caption card-body">
+                                    <p class="group inner list-group-item-text">
+                                        Crumpler The Drewbob 200
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-12">
+                                            <p class="lead">
+                                                $425.00
+                                            </p>
+                                        </div>
+                                        <div class="col-xs-12 col-md-12">
+                                            <div class="rate-grid"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="add-cart">
+                                    <p>Simple, practical, timeless design made case suitable for digital cameras with removable lenses up to 30mm and accessories. The top...</p>
+                                    <div class="cart-btn">
+                                        <button type="button" class="btn btn-dark">Add to cart</button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-compress" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="item col-xs-4 col-lg-4">
+                            <div class="thumbnail card">
+                                <div class="img-event">
+                                    <div class="label">
+                                        <p>New</p>
+                                    </div>
+                                    <div class="img-label">
+                                        <img class="group list-group-image img-fluid" src="img/shop-page/List-Grid View/2.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="caption card-body">
+                                    <p class="group inner list-group-item-text">
+                                        Crumpler The Drewbob 200
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-12">
+                                            <p class="lead">
+                                                $425.00
+                                            </p>
+                                        </div>
+                                        <div class="col-xs-12 col-md-12">
+                                            <div class="rate-grid"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="add-cart">
+                                    <p>Simple, practical, timeless design made case suitable for digital cameras with removable lenses up to 30mm and accessories. The top...</p>
+                                    <div class="cart-btn">
+                                        <button type="button" class="btn btn-dark">Add to cart</button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-compress" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item col-xs-4 col-lg-4">
+                            <div class="thumbnail card">
+                                <div class="img-event">
+                                    <div class="label">
+                                        <p>New</p>
+                                    </div>
+                                    <div class="img-label">
+                                        <img class="group list-group-image img-fluid" src="img/shop-page/List-Grid View/3.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="caption card-body">
+                                    <p class="group inner list-group-item-text">
+                                        Crumpler The Drewbob 200
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-12">
+                                            <p class="lead">
+                                                $425.00
+                                            </p>
+                                        </div>
+                                        <div class="col-xs-12 col-md-12">
+                                            <div class="rate-grid"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="add-cart">
+                                    <p>Simple, practical, timeless design made case suitable for digital cameras with removable lenses up to 30mm and accessories. The top...</p>
+                                    <div class="cart-btn">
+                                        <button type="button" class="btn btn-dark">Add to cart</button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-compress" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item col-xs-4 col-lg-4">
+                            <div class="thumbnail card">
+                                <div class="img-event">
+                                    <div class="label">
+                                        <p>New</p>
+                                    </div>
+                                    <div class="img-label">
+                                        <img class="group list-group-image img-fluid" src="img/shop-page/List-Grid View/4.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="caption card-body">
+                                    <p class="group inner list-group-item-text">
+                                        Crumpler The Drewbob 200
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-12">
+                                            <p class="lead">
+                                                $425.00
+                                            </p>
+                                        </div>
+                                        <div class="col-xs-12 col-md-12">
+                                            <div class="rate-grid"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="add-cart">
+                                    <p>Simple, practical, timeless design made case suitable for digital cameras with removable lenses up to 30mm and accessories. The top...</p>
+                                    <div class="cart-btn">
+                                        <button type="button" class="btn btn-dark">Add to cart</button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-compress" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item col-xs-4 col-lg-4">
+                            <div class="thumbnail card">
+                                <div class="img-event">
+                                    <div class="label">
+                                        <p>New</p>
+                                    </div>
+                                    <div class="img-label">
+                                        <img class="group list-group-image img-fluid" src="img/shop-page/List-Grid View/5.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="caption card-body">
+                                    <p class="group inner list-group-item-text">
+                                        Crumpler The Drewbob 200
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-12">
+                                            <p class="lead">
+                                                $425.00
+                                            </p>
+                                        </div>
+                                        <div class="col-xs-12 col-md-12">
+                                            <div class="rate-grid"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="add-cart">
+                                    <p>Simple, practical, timeless design made case suitable for digital cameras with removable lenses up to 30mm and accessories. The top...</p>
+                                    <div class="cart-btn">
+                                        <button type="button" class="btn btn-dark">Add to cart</button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-compress" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item col-xs-4 col-lg-4">
+                            <div class="thumbnail card">
+                                <div class="img-event">
+                                    <div class="label">
+                                        <p>New</p>
+                                    </div>
+                                    <div class="img-label">
+                                        <img class="group list-group-image img-fluid" src="img/shop-page/List-Grid View/6.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="caption card-body">
+                                    <p class="group inner list-group-item-text">
+                                        Crumpler The Drewbob 200
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-12">
+                                            <p class="lead">
+                                                $425.00
+                                            </p>
+                                        </div>
+                                        <div class="col-xs-12 col-md-12">
+                                            <div class="rate-grid"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="add-cart">
+                                    <p>Simple, practical, timeless design made case suitable for digital cameras with removable lenses up to 30mm and accessories. The top...</p>
+                                    <div class="cart-btn">
+                                        <button type="button" class="btn btn-dark">Add to cart</button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-compress" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item col-xs-4 col-lg-4">
+                            <div class="thumbnail card">
+                                <div class="img-event">
+                                    <div class="label">
+                                        <p>New</p>
+                                    </div>
+                                    <div class="img-label">
+                                        <img class="group list-group-image img-fluid" src="img/shop-page/List-Grid View/7.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="caption card-body">
+                                    <p class="group inner list-group-item-text">
+                                        Crumpler The Drewbob 200
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-12">
+                                            <p class="lead">
+                                                $425.00
+                                            </p>
+                                        </div>
+                                        <div class="col-xs-12 col-md-12">
+                                            <div class="rate-grid"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="add-cart">
+                                    <p>Simple, practical, timeless design made case suitable for digital cameras with removable lenses up to 30mm and accessories. The top...</p>
+                                    <div class="cart-btn">
+                                        <button type="button" class="btn btn-dark">Add to cart</button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-compress" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item col-xs-4 col-lg-4">
+                            <div class="thumbnail card">
+                                <div class="img-event">
+                                    <div class="label">
+                                        <p>New</p>
+                                    </div>
+                                    <div class="img-label">
+                                        <img class="group list-group-image img-fluid" src="img/shop-page/List-Grid View/8.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="caption card-body">
+                                    <p class="group inner list-group-item-text">
+                                        Crumpler The Drewbob 200
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-12">
+                                            <p class="lead">
+                                                $425.00
+                                            </p>
+                                        </div>
+                                        <div class="col-xs-12 col-md-12">
+                                            <div class="rate-grid"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="add-cart">
+                                    <p>Simple, practical, timeless design made case suitable for digital cameras with removable lenses up to 30mm and accessories. The top...</p>
+                                    <div class="cart-btn">
+                                        <button type="button" class="btn btn-dark">Add to cart</button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-compress" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item col-xs-4 col-lg-4">
+                            <div class="thumbnail card">
+                                <div class="img-event">
+                                    <div class="label">
+                                        <p>New</p>
+                                    </div>
+                                    <div class="img-label">
+                                        <img class="group list-group-image img-fluid" src="img/shop-page/List-Grid View/9.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="caption card-body">
+                                    <p class="group inner list-group-item-text">
+                                        Crumpler The Drewbob 200
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-12">
+                                            <p class="lead">
+                                                $425.00
+                                            </p>
+                                        </div>
+                                        <div class="col-xs-12 col-md-12">
+                                            <div class="rate-grid"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="add-cart">
+                                    <p>Simple, practical, timeless design made case suitable for digital cameras with removable lenses up to 30mm and accessories. The top...</p>
+                                    <div class="cart-btn">
+                                        <button type="button" class="btn btn-dark">Add to cart</button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-compress" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item col-xs-4 col-lg-4">
+                            <div class="thumbnail card">
+                                <div class="img-event">
+                                    <div class="label">
+                                        <p>New</p>
+                                    </div>
+                                    <div class="img-label">
+                                        <img class="group list-group-image img-fluid" src="img/shop-page/List-Grid View/10.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="caption card-body">
+                                    <p class="group inner list-group-item-text">
+                                        Crumpler The Drewbob 200
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-12">
+                                            <p class="lead">
+                                                $425.00
+                                            </p>
+                                        </div>
+                                        <div class="col-xs-12 col-md-12">
+                                            <div class="rate-grid"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="add-cart">
+                                    <p>Simple, practical, timeless design made case suitable for digital cameras with removable lenses up to 30mm and accessories. The top...</p>
+                                    <div class="cart-btn">
+                                        <button type="button" class="btn btn-dark">Add to cart</button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-compress" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item col-xs-4 col-lg-4">
+                            <div class="thumbnail card">
+                                <div class="img-event">
+                                    <div class="label">
+                                        <p>New</p>
+                                    </div>
+                                    <div class="img-label">
+                                        <img class="group list-group-image img-fluid" src="img/shop-page/List-Grid View/11.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="caption card-body">
+                                    <p class="group inner list-group-item-text">
+                                        Crumpler The Drewbob 200
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-12">
+                                            <p class="lead">
+                                                $425.00
+                                            </p>
+                                        </div>
+                                        <div class="col-xs-12 col-md-12">
+                                            <div class="rate-grid"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="add-cart">
+                                    <p>Simple, practical, timeless design made case suitable for digital cameras with removable lenses up to 30mm and accessories. The top...</p>
+                                    <div class="cart-btn">
+                                        <button type="button" class="btn btn-dark">Add to cart</button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-compress" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item col-xs-4 col-lg-4">
+                            <div class="thumbnail card">
+                                <div class="img-event">
+                                    <div class="label">
+                                        <p>New</p>
+                                    </div>
+                                    <div class="img-label">
+                                        <img class="group list-group-image img-fluid" src="img/shop-page/List-Grid View/12.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="caption card-body">
+                                    <p class="group inner list-group-item-text">
+                                        Crumpler The Drewbob 200
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-12">
+                                            <p class="lead">
+                                                $425.00
+                                            </p>
+                                        </div>
+                                        <div class="col-xs-12 col-md-12">
+                                            <div class="rate-grid"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="add-cart">
+                                    <p>Simple, practical, timeless design made case suitable for digital cameras with removable lenses up to 30mm and accessories. The top...</p>
+                                    <div class="cart-btn">
+                                        <button type="button" class="btn btn-dark">Add to cart</button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-compress" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
                     </div>
-                </div>
+
+    
+
+              
+
+
+                
+
+
+
             </div>
             <!-- end List - Grid View  -->
         </div>
-    </div>
+
 
     <!-- end PRODUCT CATEGORIES -->
-</div>
-
 
         <!--start footer -->
 
