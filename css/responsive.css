@@ -160,7 +160,7 @@
 
     /*  end home page */
 
-    /*  start ahop page */
+    /*  start shop page */
 
     @media screen and (max-width: 414px) {
 
@@ -173,6 +173,14 @@
         .img-label {
             display: flex;
             justify-content: center;
+        }
+
+        img.img-widget {
+            width: auto;
+        }
+
+        .product-size p {
+            margin-left: 13px;
         }
 
         .list-group-item button.btn.btn-primary {
@@ -204,15 +212,25 @@
             margin: 6px 0px;
         }
 
+        .pagination-grid {
+            margin: 0;
+        }
 
 
 
     }
 
 
+    @media screen and (max-width: 768px) {
+
+    
 
 
-        /*  start ahop page */
+    }
+
+
+
+        /*  end shop page */
 
 
   

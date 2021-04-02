@@ -1322,4 +1322,24 @@ button.btn.btn-dark:hover {
     border: 1px solid #c91f28;
 }
 
+.pagination-grid li {
+    margin: 10px;
+}
+
+li.page-item-one a , li.page-item.active-two span , li.page-item-three a , li.page-item-four a , li.page-item-five a , li.page-item-six a{
+    color: #293341;
+    padding: 14px 22px;
+}
+
+
+li.page-item-one , li.page-item.active-two , li.page-item-three , li.page-item-four , li.page-item-five , li.page-item-six {
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.pagination-grid {
+    margin: 19px 133px;
+}
+
 /*  end List - Grid View */
