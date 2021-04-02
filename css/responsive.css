@@ -1,3 +1,6 @@
+/*  start home page */
+
+
 @media screen and (max-width: 414px) {
 
     span.carousel-control-next-icon:before, span.carousel-control-prev-icon:before{
@@ -153,5 +156,81 @@
 
 
     }
+
+
+    /*  end home page */
+
+    /*  start shop page */
+
+    @media screen and (max-width: 414px) {
+
+        button#list , button#grid {
+            color: #a9a9a9;
+            font-size: 31px;
+            width: 177px;
+        }
+
+        .img-label {
+            display: flex;
+            justify-content: center;
+        }
+
+        img.img-widget {
+            width: auto;
+        }
+
+        .product-size p {
+            margin-left: 13px;
+        }
+
+        .list-group-item button.btn.btn-primary {
+            display: none;
+        }
+
+        .label {
+            display: none;
+        }
+
+        .show-grid-list {
+            width: 100%;
+        }
+
+        select.ctrl-row {
+            width: 100%;
+        }
+
+        .form-radio {
+            padding: 0px 20px;
+            margin: 0px 5px;
+        }
+
+        button.btn-tags{
+            margin: 0 1px 12px;
+        }
+
+        .adidas-product , .hm-brand {
+            margin: 6px 0px;
+        }
+
+        .pagination-grid {
+            margin: 0;
+        }
+
+
+
+    }
+
+
+    @media screen and (max-width: 768px) {
+
+    
+
+
+    }
+
+
+
+        /*  end shop page */
+
 
   
