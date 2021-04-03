@@ -26,6 +26,10 @@
 
 /* start navbar slider */
 
+.home-slider {
+    overflow: hidden;
+}
+
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     background: white !important;
 }
@@ -665,6 +669,7 @@ input#sub1valid {
     font-family: Poppins;
     border-radius: 1px;
     font-weight: 500;
+    margin: 0;
 }
 
 input#sub1valid:hover {
@@ -1422,7 +1427,7 @@ li.page-item-one , li.page-item.active-two , li.page-item-three , li.page-item-f
 
 .carousel-item img {
     width: 260px;
-    height: 280px !important;
+    /* height: 280px !important; */
 }
 
 #myCarousel .carousel-indicators {
