@@ -1391,3 +1391,307 @@ li.page-item-one , li.page-item.active-two , li.page-item-three , li.page-item-f
 }
 
 /*  end List - Grid View */
+
+
+/*  start single product */
+
+
+/*  start single header */
+
+.single-header p {
+    margin-left: 67px;
+}
+
+.single-header {
+    background: #eee;
+    line-height: 80px;
+    font-size: 16px;
+    font-family: Poppins;
+    color: #7b7b7b;
+}
+
+
+/*  end single header */
+
+
+/*  start image selector */
+
+.carousel-inner img {
+    width: 100%
+}
+
+.carousel-item img {
+    width: 260px;
+    height: 280px !important;
+}
+
+#myCarousel .carousel-indicators {
+    position: static;
+    margin-top: 0px;
+    margin: 0;
+    width: 100%;
+}
+
+#myCarousel .carousel-indicators>li {
+    height: 260px;
+    width: 150px;
+}
+
+#myCarousel .carousel-indicators li img {
+    display: block;
+}
+
+#myCarousel .carousel-indicators li.active img {
+    opacity: 1
+}
+
+#myCarousel .carousel-indicators li:hover img {
+    opacity: 0.75
+}
+
+
+/*  end image selector */
+
+
+/*  start image selector info */
+
+.img-selctor-info {
+    margin-top: 33px;
+}
+
+.img-selctor-info h2 {
+    font-size: 30px;
+    font-family: Poppins;
+    font-weight: 400;
+    color: #293341;
+}
+
+.rating {
+margin: 0;
+    flex-direction: row-reverse;
+}
+
+.rating>input {
+    display: none
+}
+
+.rating>label {
+    position: relative;
+    font-size: 1.6vw;
+    color: #FFD600;
+    cursor: pointer;
+}
+
+.rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important
+}
+
+.rating>input:checked~label:before {
+    opacity: 1
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4
+}
+
+.img-selctor-info h3 {
+    color: #293341;
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+a.btn.btn-primary {
+    background: #293341;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-family: Poppins;
+    padding: 14px 36px;
+    border-radius: 1px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.img-selctor-info p {
+    margin: 30px 0 0 0;
+    color: #7b7b7b;
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+i.fa.fa-truck {
+    margin: 0 9px 0 0px;
+}
+
+hr.info-select {
+    margin-top: 20px;
+}
+
+p.info1 span i {
+    margin: 3px;
+}
+
+p.info1 span {
+    color: #7b7b7b;
+    margin: 19px;
+}
+
+.ship-info p {
+    color: #293341;
+    font-family: Poppins;
+    font-size: 16px;
+}
+/*  end image selector info */
+
+
+/*  start nav tab */
+
+ul.nav.nav-tabs a {
+    color: #7b7b7b;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.tab-content p {
+    color: #7b7b7b;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    border: 1px solid #eee;
+    padding: 16px;
+}
+
+p.Additional-information {
+    border: 1px solid #eee;
+    padding: 16px;
+}
+
+p.Additional-information span {
+    margin: 0 44px;
+}
+
+p.req-mail {
+    border: 0;
+}
+
+
+div#menu2 h4 {
+    font-size: 20px;
+    color: #293341;
+    font-family: Poppins;
+    font-weight: 500;
+    margin-top: 31px;
+}
+
+p.req-mail {
+    border: 0;
+    padding: 0;
+}
+
+p.mail-rating {
+    color: #293341;
+    font-size: 15px;
+    border: 0;
+    padding: 0;
+}
+
+p.textarea {
+    border: 0;
+    padding: 0;
+    color: #293341;
+    font-size: 15px;
+}
+
+textarea.form-control {
+    padding: 40px;
+}
+.review-input {
+    margin-top: 25px;
+}
+
+.input-group-prepend span {
+    color: #293341;
+    font-size: 15px;
+    font-family: Poppins;
+    background: white;
+    padding: 19px;
+}
+
+input[type="submit"] {
+    background: #293341;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-family: Poppins;
+    padding: 14px 47px;
+    border-radius: 1px;
+    font-weight: 500;
+    margin-top: 16px;
+    color: white;
+}
+
+.mailandphone {
+    color: #293341;
+    font-size: 15px;
+    font-family: Poppins;
+    margin-top: 12px;
+}
+
+/*  end nav tab */
+
+
+
+/*  start Related Products */
+
+.product-Related h2 {
+    font-family: Poppins;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: #293341;
+    font-weight: 500;
+}
+
+h5.relate-info {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+p.relate-price {
+    text-align: center;
+    line-height: 26px;
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+p.relate-price span {
+    color: #c91f28;
+}
+
+.rate-relate {
+    text-align: center;
+}
+
+/*  end Related Products */
+
+
+
+
+
+
+
+
+/*  end single product */
