@@ -115,7 +115,7 @@ span.carousel-control-prev-icon:before {
 ul.navbar-nav a {
     font-size: 13px;
     font-family: Poppins;
-    margin: 6px 6px;
+    margin: 6px 5px;
     line-height: 33px;
     color: #293341;
     font-weight: 500;
@@ -1197,7 +1197,6 @@ button.btn-tags:hover {
     margin-top: 12px;
 }
 
-
 .show-grid-list {
     float: left;
     padding: 6px 20px;
@@ -1379,13 +1378,22 @@ button.btn.btn-dark:hover {
     margin: 10px;
 }
 
-li.page-item-one a , li.page-item.active-two span , li.page-item-three a , li.page-item-four a , li.page-item-five a , li.page-item-six a{
+li.page-item-one a,
+li.page-item.active-two span,
+li.page-item-three a,
+li.page-item-four a,
+li.page-item-five a,
+li.page-item-six a {
     color: #293341;
     padding: 14px 22px;
 }
 
-
-li.page-item-one , li.page-item.active-two , li.page-item-three , li.page-item-four , li.page-item-five , li.page-item-six {
+li.page-item-one,
+li.page-item.active-two,
+li.page-item-three,
+li.page-item-four,
+li.page-item-five,
+li.page-item-six {
     font-size: 16px;
     font-family: Poppins;
     font-weight: 500;
@@ -1397,9 +1405,7 @@ li.page-item-one , li.page-item.active-two , li.page-item-three , li.page-item-f
 
 /*  end List - Grid View */
 
-
 /*  start single product */
-
 
 /*  start single header */
 
@@ -1415,14 +1421,12 @@ li.page-item-one , li.page-item.active-two , li.page-item-three , li.page-item-f
     color: #7b7b7b;
 }
 
-
 /*  end single header */
-
 
 /*  start image selector */
 
 .carousel-inner img {
-    width: 100%
+    width: 100%;
 }
 
 .carousel-item img {
@@ -1437,7 +1441,7 @@ li.page-item-one , li.page-item.active-two , li.page-item-three , li.page-item-f
     width: 100%;
 }
 
-#myCarousel .carousel-indicators>li {
+#myCarousel .carousel-indicators > li {
     height: 260px;
     width: 150px;
 }
@@ -1447,16 +1451,14 @@ li.page-item-one , li.page-item.active-two , li.page-item-three , li.page-item-f
 }
 
 #myCarousel .carousel-indicators li.active img {
-    opacity: 1
+    opacity: 1;
 }
 
 #myCarousel .carousel-indicators li:hover img {
-    opacity: 0.75
+    opacity: 0.75;
 }
 
-
 /*  end image selector */
-
 
 /*  start image selector info */
 
@@ -1472,38 +1474,38 @@ li.page-item-one , li.page-item.active-two , li.page-item-three , li.page-item-f
 }
 
 .rating {
-margin: 0;
+    margin: 0;
     flex-direction: row-reverse;
 }
 
-.rating>input {
-    display: none
+.rating > input {
+    display: none;
 }
 
-.rating>label {
+.rating > label {
     position: relative;
     font-size: 1.6vw;
-    color: #FFD600;
+    color: #ffd600;
     cursor: pointer;
 }
 
-.rating>label::before {
+.rating > label::before {
     content: "\2605";
     position: absolute;
-    opacity: 0
+    opacity: 0;
 }
 
-.rating>label:hover:before,
-.rating>label:hover~label:before {
-    opacity: 1 !important
+.rating > label:hover:before,
+.rating > label:hover ~ label:before {
+    opacity: 1 !important;
 }
 
-.rating>input:checked~label:before {
-    opacity: 1
+.rating > input:checked ~ label:before {
+    opacity: 1;
 }
 
-.rating:hover>input:checked~label:before {
-    opacity: 0.4
+.rating:hover > input:checked ~ label:before {
+    opacity: 0.4;
 }
 
 .img-selctor-info h3 {
@@ -1555,7 +1557,6 @@ p.info1 span {
 }
 /*  end image selector info */
 
-
 /*  start nav tab */
 
 ul.nav.nav-tabs a {
@@ -1565,7 +1566,6 @@ ul.nav.nav-tabs a {
     font-weight: 400;
     line-height: 30px;
 }
-
 
 .tab-content p {
     color: #7b7b7b;
@@ -1589,7 +1589,6 @@ p.Additional-information span {
 p.req-mail {
     border: 0;
 }
-
 
 div#menu2 h4 {
     font-size: 20px;
@@ -1654,8 +1653,6 @@ input[type="submit"] {
 
 /*  end nav tab */
 
-
-
 /*  start Related Products */
 
 .product-Related h2 {
@@ -1692,11 +1689,68 @@ p.relate-price span {
 
 /*  end Related Products */
 
-
-
-
-
-
-
-
 /*  end single product */
+
+/* start image blog bost */
+
+.blog-header {
+    text-align: center;
+    padding: 45px;
+    font-family: Poppins;
+}
+
+.blog-header p {
+    font-size: 16px;
+    color: #7b7b7b;
+    font-weight: 300;
+}
+.blog-header h1 {
+    font-size: 35px;
+    line-height: 50px;
+    color: #293341;
+}
+
+.card.bg-dark.text-white {
+    border: 0;
+}
+
+.border-cart {
+    text-align: center;
+    border: 1px solid white;
+    background: white;
+    font-family: Poppins;
+}
+
+p.card-title {
+    color: #c91f28;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+h5.card-text {
+    color: #293341;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+p.card-text {
+    color: #7b7b7b;
+    font-size: 16px;
+}
+.card {
+    border: 0 !important;
+    margin-top: 34px;
+}
+
+a.btn.btn-primary:hover {
+    background: #c91f28;
+    border-color: #c91f28;
+}
+
+.pagi-blog .pagination-grid {
+    justify-content: center;
+    display: flex;
+}
+
+/* end image blog bost */
