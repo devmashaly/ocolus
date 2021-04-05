@@ -1754,3 +1754,247 @@ a.btn.btn-primary:hover {
 }
 
 /* end image blog bost */
+
+
+
+/* start cart table product */
+
+.param {
+    margin-bottom: 7px;
+    line-height: 1.4;
+}
+.param-inline dt {
+    display: inline-block;
+}
+.param dt {
+    margin: 0;
+    margin-right: 7px;
+    font-weight: 600;
+}
+.param-inline dd {
+    vertical-align: baseline;
+    display: inline-block;
+}
+
+.param dd {
+    margin: 0;
+    vertical-align: baseline;
+} 
+
+.shopping-cart-wrap .price {
+    font-weight: bold;
+    margin-right: 5px;
+    display: block;
+    color: #293341;
+    font-size: 16px;
+    font-family: Poppins;
+    padding: 20px 1px;
+    text-align: center;
+}
+var {
+    font-style: normal;
+}
+
+th.product-card {
+    width: 300px;
+}
+
+select.form-control {
+    background: #f9f9f9;
+    height: 50px !important;
+}
+
+th.quantity-card {
+    text-align: center;
+}
+
+th.price-card {
+    text-align: center;
+}
+
+.media img {
+    margin-right: 1rem;
+}
+.img-sm {
+    width: 90px;
+    max-height: 75px;
+    object-fit: cover;
+}
+
+table.table.table-hover.shopping-cart-wrap {
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+thead.text-muted th {
+    border-bottom: 0;
+    color: #293341;
+    font-size: 16px;
+    font-family: Poppins;
+    letter-spacing: 4px;
+    padding: 20px 19px;
+}
+
+.img-wrap img {
+    border: 0;
+    padding: 1px;
+    max-width: 100%;
+    max-height: 100px;
+}
+
+p.title.text-truncate {
+    margin-top: 19px;
+    color: #293341;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 300;
+    padding: 20px 1px;
+}
+
+.table thead th {
+    border: 0 !important;
+}
+
+.table td, .table th{
+    vertical-align: middle !important;
+}
+
+.table td {
+    padding: 11px !important;
+}
+
+.cart-btn {
+    justify-content: right;
+    display: grid;
+    margin-top: 9px;
+}
+
+.cart-btn input#sub1valid {
+    padding: 17px 25px;
+    font-size: 14px;
+    text-decoration: underline;
+  
+}
+/* end cart table product */
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	/*
+	Label the data
+	*/
+	
+}
+
+/* start footer cart */
+
+.footer-cart {
+    background: #f9f9f9;
+    margin-top: 50px;
+    padding: 60px;
+}
+
+.discount-code p {
+    font-family: Poppins;
+    font-size: 16px;
+    color: #7b7b7b;
+}
+.discount-code h6 {
+    color: #293341;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.form-group.mx-sm-3.mb-2 {
+    margin: 0 !important;
+}
+
+input#inputPassword2 {
+    padding: 14px 81px;
+    border-radius: 1px;
+}
+
+form.form-inline input#sub1valid {
+    padding: 16px 29px;
+    font-size: 14px;
+    border: 0;
+}
+
+li.list-group-item.d-flex.justify-content-between.align-items-center.px-0 {
+    background: #f9f9f9;
+    border: 0;
+    padding: 0 0 24px;
+}
+
+li.list-group-item.d-flex.justify-content-between.align-items-center.px-0 span {
+    text-align: right;
+}
+
+li.list-group-item.d-flex.justify-content-between.align-items-center.border-0.px-0.pb-0 {
+    color: #293341;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 19px;
+}
+
+li.list-group-item.d-flex.justify-content-between.align-items-center.px-0 {
+    color: #293341;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.info-card .pt-4, .py-4 {
+    padding: 0 !important;
+}
+
+.info-card input#sub1valid {
+    padding: 10px 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.card-accept img {
+    margin: 36px 31px;
+}
+/* end footer cart */
