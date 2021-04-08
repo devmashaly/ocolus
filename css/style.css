@@ -724,6 +724,9 @@ input#sub1valid:hover {
 footer#dk-footer hr {
     margin-top: 48px;
 }
+footer#dk-footer {
+    width: 100%;
+}
 
 .copyright {
     padding: 28px 0;

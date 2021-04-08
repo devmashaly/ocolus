@@ -64,6 +64,26 @@ $('.Column-list').owlCarousel({
   }
 })
 
+$('.row-blog').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  dots:false,
+  responsive:{
+      0:{
+          items:2,
+          nav:false,
+      },
+      600:{
+          items:3,
+      },
+      1000:{
+          items:5,     
+      }
+  }
+})
+
+
 
 
 var slider = document.getElementById("myRange");
