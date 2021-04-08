@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Playfair";
+    font-family: "Playfair Display";
     src: url("/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf"), url("/fonts/PlayfairDisplay-VariableFont_wght.ttf");
 }
 @font-face {
@@ -211,7 +211,7 @@ button.btn.btn-secondary:hover {
 }
 
 .home-slider h1 {
-    font-family: "Playfair";
+    font-family: Playfair Display;
     color: rgb(41 51 65);
     font-weight: 700;
     font-size: 49px;
@@ -320,7 +320,7 @@ button.btn.btn-secondary:hover {
 }
 
 .feature-content h2 {
-    font-family: Playfair;
+    font-family: Playfair Display;
     font-size: 40px;
     font-weight: bold;
 }
@@ -617,7 +617,7 @@ button.btn.btn-slick:hover {
 
 .follow-insta h3 {
     color: rgb(41, 51, 65);
-    font-family: Playfair;
+    font-family: Playfair Display;
     font-size: 40px;
     font-weight: 700;
 }
@@ -677,7 +677,7 @@ button.btn.btn-slick:hover {
 
 .Newsletter h3 {
     color: rgb(41, 51, 65);
-    font-family: Playfair;
+    font-family: Playfair Display;
     font-size: 40px;
     font-weight: 700;
 }
