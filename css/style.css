@@ -72,17 +72,52 @@ span.carousel-control-prev-icon:before {
 
 i.fa.fa-user-o:before {
     content: "\f2c0";
-    font-size: 20px;
-    color: rgb(25 24 24 / 50%);
+    color: #84757d;
+    margin-left: 27px;
+    font-size: 22px;
+}
+.fa-search:before {
+    content: "\f002";
+    color: #84757d;
+    margin-left: 27px;
+    font-size: 22px;
 }
 
 i.fa.fa-search {
     font-size: 20px;
     color: rgb(25 24 24 / 50%);
 }
-i.fa.fa-shopping-basket:before {
-    content: "\f291";
-    color: rgb(25 24 24 / 50%);
+i.fa.fa-shopping-cart:before {
+    content: "\f07a";
+    color: #84757d;
+    margin-left: 27px;
+    font-size: 22px;
+}
+
+img.cart-icon {
+    width: 25px;
+    margin-left: 11px;
+    color: #84757d;
+}
+img.user-icon {
+    width: 25px;
+    margin-left: 11px;
+}
+
+img.search-icon {
+    width: 25px;
+    margin-left: 11px;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0 {
+    color: #6c757d;
+    border: 1px solid #ced4da;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0:hover {
+    background: #c91f28;
+    border: 1px solid#c91f28;
+    color: #ffffff;
 }
 
 .nav-icon-holder i {
@@ -113,12 +148,17 @@ span.carousel-control-prev-icon:before {
 }
 
 ul.navbar-nav a {
-    font-size: 13px;
+    font-size: 14px;
     font-family: Poppins;
-    margin: 6px 5px;
+    margin: 7px 21px;
     line-height: 33px;
     color: #293341;
     font-weight: 500;
+    text-transform: uppercase;
+}
+
+div#navbarTogglerDemo02 {
+    justify-content: flex-end;
 }
 
 ul.navbar-nav a:hover {
