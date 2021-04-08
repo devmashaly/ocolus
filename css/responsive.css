@@ -18,18 +18,10 @@
         padding: 0px 23px;
     }
 
-    ul.navbar-nav {
-        flex-direction: inherit;
-    }
-    div#navbarNavDropdown {
-        display: block;
-        justify-content: center;
-        margin: 0 auto;
-    }
 
     button.navbar-toggler {
-        display: none;
-    }
+        display: block;
+        }
 }
 
 @media screen and (max-width: 414px) {
@@ -184,15 +176,7 @@
         margin-bottom: 21px;
     }
 
-    nav.navbar.navbar-expand-lg.navbar-light.bg-light img {
-        margin: 0 auto;
-        display: block;
-        padding: 20px;
-    }
-
     button.navbar-toggler {
-        margin: 0 auto;
-        display: block;
         border: 0;
     }
     .nav-icon-holder {
@@ -200,12 +184,7 @@
         text-align: center;
     }
 
-    button.navbar-toggler {
-        display: block;
-    }
-    div#navbarNavDropdown {
-        display: none;
-    }
+ 
 }
 
 /*  end home page */
@@ -244,9 +223,6 @@
         width: auto;
     }
 
-    .product-size p {
-        margin-left: 13px;
-    }
 
     .list-group-item button.btn.btn-primary {
         display: none;
@@ -336,6 +312,7 @@
         padding: 14px 16px;
     }
 
+
 }
 
 @media screen and (max-width: 414px) {
@@ -350,6 +327,31 @@
     .form-radio {
         margin: 0;
     }
+
+    .form-group.mx-sm-3.mb-2 .sub-email {
+        margin: 14px;
+    }
+
+    input#inputPassword2 {
+        padding: 4px 29px;
+    }
+    .discount-code h6 {
+        text-align: center;
+    }
+
+    .discount-code p {
+        text-align: center;
+    }
+
+    form.form-inline input#sub1valid {
+        padding: 8px 19px;
+        margin: 9px auto;
+        display: block;
+    }
+
+    
+  
+
 }
 
 /*  end cart page */
