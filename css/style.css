@@ -1134,6 +1134,11 @@ button.btn-tags:hover {
     color: #c91f28;
 }
 
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 /*  end tags */
 
 /*  start List - Grid View */
@@ -1413,6 +1418,13 @@ li.page-item-six {
     margin-left: 67px;
 }
 
+p.description-selector {
+    color: #7b7b7b;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
 .single-header {
     background: #eee;
     line-height: 80px;
@@ -1471,6 +1483,17 @@ li.page-item-six {
     font-family: Poppins;
     font-weight: 400;
     color: #293341;
+    margin: 0;
+}
+
+.img-selctor-info a.btn.btn-primary {
+    margin-top: 12px;
+}
+
+.img-selctor-info .rate-relate {
+    text-align: left;
+    margin-bottom: 17px;
+    color: #7b7b7b;
 }
 
 .rating {
@@ -1484,7 +1507,7 @@ li.page-item-six {
 
 .rating > label {
     position: relative;
-    font-size: 1.6vw;
+    font-size: 19px;
     color: #ffd600;
     cursor: pointer;
 }
@@ -1524,6 +1547,8 @@ a.btn.btn-primary {
     border-radius: 1px;
     font-weight: 500;
     margin-top: 4px;
+    border: 0;
+
 }
 
 .img-selctor-info p {
@@ -1746,6 +1771,7 @@ p.card-text {
 a.btn.btn-primary:hover {
     background: #c91f28;
     border-color: #c91f28;
+    border: 0;
 }
 
 .pagi-blog .pagination-grid {
