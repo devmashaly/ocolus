@@ -197,11 +197,27 @@
     }
 
     select.ctrl-row {
-        padding: 18px 5px;
+        padding: 19px 3px;
     }
 
     .adidas-product {
         margin: 0;
+    }
+    button#list {
+        padding: 13px 15px;
+    }
+    button#grid {
+        padding: 6px 14px;
+    }
+    .img-label {
+        text-align: center;
+    }
+    .rating-product {
+        font-size: 10px;
+    }
+
+    button.btn-tags {
+        padding: 7px 33px;
     }
 
 }
