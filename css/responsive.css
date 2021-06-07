@@ -14,10 +14,6 @@
         line-height: 31px;
     }
 
-    .info-slider span {
-        padding: 0px 23px;
-    }
-
 
     button.navbar-toggler {
         display: block;
@@ -25,6 +21,12 @@
 }
 
 @media screen and (max-width: 414px) {
+
+    .info-slider span {
+        padding: 0;
+        margin: 23px;
+    }
+
     span.carousel-control-next-icon:before,
     span.carousel-control-prev-icon:before {
         width: 22px;
@@ -159,12 +161,9 @@
         font-size: 28px;
     }
 
-    .info-slider span {
-        padding: 0;
-        margin: 13px;
-    }
+   
     .info-slider {
-        padding: 9px 57px;
+        padding: 9px 38px;
         color: #7b7b7b;
         font-family: Poppins;
         font-size: 13px;
@@ -218,6 +217,15 @@
 
     button.btn-tags {
         padding: 7px 33px;
+    }
+
+    .img-label img {
+        height: 248px;
+    }
+
+    .cart-btn {
+        margin: 37px;
+        text-align: center;
     }
 
 }
@@ -289,6 +297,10 @@
         display: block;
     }
 
+    #myCarousel .carousel-indicators > li {
+        height: 100px;
+    }
+
 }
 
 @media screen and (max-width: 414px) {
@@ -334,6 +346,11 @@
 @media screen and (max-width: 414px) {
     .cart-btn {
         justify-content: center;
+    }
+
+    .cart-btn input#sub1valid  {
+        text-align: center;
+        margin: 0px 44px;
     }
 
     .range-slider h3 {
