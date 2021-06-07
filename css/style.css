@@ -73,13 +73,11 @@ span.carousel-control-prev-icon:before {
 i.fa.fa-user-o:before {
     content: "\f2c0";
     color: #84757d;
-    margin-left: 27px;
     font-size: 22px;
 }
 .fa-search:before {
     content: "\f002";
     color: #84757d;
-    margin-left: 27px;
     font-size: 22px;
 }
 
@@ -1242,12 +1240,13 @@ button.btn-tags:hover {
 }
 
 .show-grid-list p {
-    margin-top: 12px;
+    margin-top: 11px;
+    font-size: 16px;
 }
 
 .show-grid-list {
     float: left;
-    padding: 6px 20px;
+    padding: 11px 20px;
     border: 1px solid #eee;
     color: #7b7b7b;
     font-size: 14px;
@@ -1258,13 +1257,13 @@ button.btn-tags:hover {
 button#list {
     background: white;
     color: #aaabaa;
-    padding: 12px 20px;
+    padding: 13px 20px;
     border: 1px solid #eee;
     font-size: 25px;
 }
 
 select.ctrl-row {
-    padding: 18px 20px;
+    padding: 19px 20px;
     border: 1px solid #eee;
     color: #7b7b7b;
     font-size: 16px;
@@ -1496,8 +1495,12 @@ p.description-selector {
     width: 100%;
 }
 
+li.list-inline-item.active {
+    border: 2px solid black;
+}
+
 #myCarousel .carousel-indicators > li {
-    height: 260px;
+    height: 150px;
     width: 150px;
 }
 
@@ -1933,7 +1936,6 @@ p.title.text-truncate {
 
 .cart-btn {
     justify-content: right;
-    display: grid;
     margin-top: 9px;
 }
 
